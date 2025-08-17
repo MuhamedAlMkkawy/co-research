@@ -1,0 +1,27 @@
+.static_page{
+  @include displayFlex($justify : flex-start);
+  min-height: 50vh;
+  .image{
+    max-width: 250px;
+    flex-shrink: 0;
+    img{
+      object-fit: contain;
+    }
+  }
+  .head{
+    h4.title{
+      font-size: clamp(18px , 4vw , 28px);
+      font-weight: 500;
+    }
+    p{
+      line-height: 2;
+    }
+  }
+  @media (max-width : 992px){
+    flex-wrap: wrap;
+    .image{
+      height: 150px;
+      margin: 0 0 20px;
+    }
+  }
+}

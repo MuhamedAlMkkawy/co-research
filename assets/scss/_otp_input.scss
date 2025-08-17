@@ -1,0 +1,14 @@
+.p-inputotp{
+  gap: clamp(8px , 100% , 20px);
+  margin-top: 20px;
+  justify-content: center;
+  // margin-bottom: clamp(15px , 100% , 70px);
+}
+.p-inputotp-input{
+  border: 1px solid #e4e4e4 !important;
+  width: clamp(63px , 100% , 84px) !important;
+  height: clamp(63px , 100% , 84px) !important;
+  border-radius: 12px !important;
+  font-size: 30px !important;
+  padding:0 !important;
+}

@@ -1,0 +1,565 @@
+{
+  "navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "chats": "My Chats",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "profileDropdown": {
+      "profile": "Profile",
+      "settings": "Settings",
+      "wallet": "Wallet",
+      "packages": "Packages",
+      "myPackages": "My Package",
+      "followers": "Followers",
+      "requests": "Join Requests",
+      "logout": "Log Out",
+      "notifications": "Notifications",
+      "showMore": "Show All"
+    }
+  },
+  "login": {
+    "welcome": "Welcome Back",
+    "title": "Please enter your data to ",
+    "phone": {
+      "label": "Mobile Number",
+      "placeholder": "Enter mobile number"
+    },
+    "button": "Sign In",
+    "register_text": "Don't have an account?",
+    "register_link": "Create Account",
+    "guest": "Enter as Guest"
+  },
+  "user_type": {
+    "welcome": "Welcome",
+    "title": "Please select your identity to ",
+    "sub_title_login": "Sign In",
+    "sub_title_register": "Create A New Account",
+    "user": {
+      "label": "User Type",
+      "types": {
+        "user": "Independent Researcher",
+        "organization": "Research Organization",
+        "related_user": "Researcher affiliated with an organization"
+      }
+    },
+    "button": "Continue",
+    "login_text": "Already have an account?",
+    "login_link": "Login",
+    "register_text" : "Don't have an account?",
+    "register_link" : "Sign Up"
+  },
+  "register": {
+    "welcome": "Welcome",
+    "title": "Please complete your information to create a new account",
+    "image": "Personal Image",
+    "logo" : "Organization Logo",
+    "name": "Name",
+    "city": "City",
+    "email": "Email",
+    "scientific_field": "Scientific Qualification",
+    "shared_researches": "Number of published researches",
+    "part_researches": "Number of researches participating previously",
+    "exprtises": "Experiences",
+    "courses": "Training Courses",
+    "field": "Research Field",
+    "specializations": "Research Specializations",
+    "organization" : "Organization you are affiliated with",
+    "organization_placeholder" : "Organization name",
+    "employee_number" : "Employee / Student Number",
+    "employee_number_placeholder" : "Enter employee / student number",
+    "organization_image" : "Organization Card",
+    "phone": "Mobile Number",
+    "job": "Job / Position",
+    "add_research": "Add research participated previously",
+    "research_name": "Research Name",
+    "research_field": "Research Field",
+    "research_type": "Research Type",
+    "research_files": "Attach research files",
+    "local_research": "Local Researches",
+    "remove_research": "Remove Research",
+    "research_title": "Research: ",
+    "research_field_title": "Research Field: ",
+    "research_specializations_title": "Research Specialization: ",
+    "submit": "Create Account",
+    "optional": "Optional",
+    "individual_research": "Individual Research",
+    "shared_research": "Shared Research"
+  },
+  "identity": {
+    "welcome": "Welcome",
+    "title": "Please select your identity to create a new account",
+    "image": "Identity Image",
+    "input": {
+      "label": "Identity Number",
+      "placeholder": "Enter identity number"
+    },
+    "terms": "Agree to the app's terms and conditions",
+    "button": "Next",
+    "login_text": "Have an account?",
+    "login_link": "Sign In",
+    "popup": {
+      "title": "Verifying identity through Nafath before completing registration"
+    }
+  },
+  "code": {
+    "text": "Verification Code",
+    "title": "Please enter the verification code",
+    "button": "Confirm",
+    "have_code": "Didn't receive a code?",
+    "send": "Resend"
+  },
+  "home": {
+    "about": {
+      "title": "About the Platform",
+      "button" : "Show More"
+    },
+    "departments": {
+      "title": "Available Departments",
+      "create": "Create Research Opportunity",
+      "chances": "Research Opportunities",
+      "researchers": "Researchers",
+      "organizations": "Organizations",
+      "organization": "Organization"
+    }
+  },
+  "footer": {
+    "links": {
+      "home": "Home",
+      "projects": "My Projects",
+      "chats": "My Chats",
+      "terms": "Terms and Conditions",
+      "privacy": "Privacy Policy",
+      "about": "About the Platform",
+      "contact": "Contact Us",
+      "complaints": "Complaints"
+    },
+    "rights": "All rights reserved to Co-Research",
+    "design": "Designed and developed by Network Orders Company"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter name"
+      },
+      "phone": {
+        "label": "Mobile Number",
+        "placeholder": "Enter mobile number"
+      },
+      "title": {
+        "label": "Title",
+        "placeholder": "Message text"
+      },
+      "send": "Send"
+    }
+  },
+  "popup": {
+    "contact_text": "Message sent successfully",
+    "home": "Home",
+    "back": "Back"
+  },
+  "projects": {
+    "myProjects": "My Projects",
+    "myResearch": "My Research",
+    "participatedResearch": "Participated Research",
+    "statuses": {
+      "new": "New",
+      "current": "Current",
+      "completed": "Completed"
+    },
+    "research": {
+      "title": "Research Title:",
+      "requestNumber": "Request ",
+      "field": "Research Field:",
+      "status": "Request Status:"
+    }
+  },
+  "filterJoinReqPopup": {
+    "title": "Filter Results",
+    "participationType": "Select Participation Type",
+    "submit": "Submit"
+  },
+  "project_page": {
+    "title": "Request Details",
+    "requestNumber": "Request ",
+    "startResearch": "Start Research",
+    "completedResearch": "Research Completed",
+    "endRequest": "End Research Opportunity Request",
+    "membersCompensationAcknowledgment": "Acknowledgment of members receiving their compensation",
+    "cancelRequest": "Cancel Request",
+    "mainResearcherDetails": "Main Researcher Details",
+    "viewDetails": "View Details",
+    "startChat": "Start Chat",
+    "shareType": "Participation Type",
+    "researchDetails": "Research Details",
+    "research_title" : "Research about ",
+    "researchField": "Research Field:",
+    "researchSpecialization": "Research Specialization:",
+    "researchSummary": "Research Summary:",
+    "cancelReason": "Cancellation Reason",
+    "estimatedTime": "Estimated Time to Complete the Project:",
+    "days": "Days",
+    "shareTypes": "Types of Participations and Compensation for Members",
+    "compensation": "Monetary Compensation -",
+    "membersCount": "Number of Members",
+    "joinRequests": "Join Requests",
+    "membersData": "Members Data",
+    "viewMembersChat": "View Members Chat",
+    "cancelSuccess": "Request Cancelled Successfully",
+    "participationType": "Participation Type:",
+    "researcherNotes": "Researcher Notes on Research:",
+    "exampleNote": "This is an example text to replace in the same text area, generated by the Arabic text generator.",
+    "accept": "Accept",
+    "reject": "Reject"
+  },
+  "cancelResearchPopup": {
+    "title": "Cancel Request",
+    "input": {
+      "label": "Enter Cancellation Reason",
+      "placeholder": "Enter Cancellation Reason"
+    },
+    "buttons": {
+      "cancel": "Cancel Request",
+      "back": "Back"
+    }
+  },
+  "header_notification": {
+    "title": "Notifications",
+    "deleteAll": "Delete All"
+  },
+  "profile_page": {
+    "title": "Profile",
+    "edit": "Edit Profile",
+    "image": "Card Image",
+    "experiences": "Experiences",
+    "trainingCourses": "Training Courses",
+    "published_researches_number": "Number of Published Researches:",
+    "participatedResearchesNumbers": "Number of Participated Researches:",
+    "researchSpecializations": "Research Specializations",
+    "about_organization": "What does the organization offer:",
+    "researchType": "Research Type:",
+    "researchName": "Research Name:",
+    "researchField": "Research Field:",
+    "researchSpecialization": "Research Specialization:",
+    "edit_btn": "Save Changes"
+  },
+  "researcher_page": {
+    "title": "Researcher Details",
+    "image": "Card Image",
+    "startChat": "Start Chat",
+    "experiences": "Experiences",
+    "trainingCourses": "Training Courses",
+    "researchSpecializations": "Research Specializations",
+    "researchType": "Research Type:",
+    "researchFieldTitle": "Research Field",
+    "publishedResearch": "Number of Published Researches:",
+    "participatedResearch": "Number of Participated Researches:"
+  },
+  "organization_page": {
+    "title": "Organizations Details",
+    "commercial_number": "Commercial Registration",
+    "startChat" : "Start Chat",
+    "about_organizations": "What the platform offers",
+    "researchSpecializations": "Research Specializations",
+    "researchFields": "Research Fields"
+  },
+  "settings_page": {
+    "title": "Settings",
+    "changePhoneNumber": "Change Mobile Number",
+    "notifications": "Enable Notifications",
+    "visibility": "Hide Job",
+    "orgnaization_visibility" : "Enable visibility of organization projects",
+    "deleteAccount": "Delete Account",
+    "new_phone": {
+      "new_phone_text": "Please enter your mobile number to receive a verification code",
+      "phone_label": "New Mobile Number",
+      "phone_placeholder": "Enter new mobile number",
+      "submit_btn": "Submit"
+    }
+  },
+  "delete_account_popup": {
+    "title": "Are you sure you want to delete your account?",
+    "delete_account": "Delete Account",
+    "back": "Back"
+  },
+  "logout_popup": {
+    "title": "Are you sure you want to log out?",
+    "logout": "Log Out",
+    "back": "Back"
+  },
+  "wallet_page": {
+    "title": "Wallet",
+    "your_current_balance": "Your Current Balance:",
+    "charge_wallet": "Charge Wallet",
+    "recharge_popup": {
+      "title": "Charge Wallet",
+      "label": "Recharge Amount",
+      "placeholder": "Enter recharge amount",
+      "recharge": "Recharge",
+      "back": "Back",
+      "success": "Wallet charged successfully"
+    }
+  },
+  "packages_page": {
+    "title": "Packages",
+    "subscribe": "Subscribe",
+    "user" : "User",
+    "currency" : "SAR",
+    "name": "Package",
+    "popup": {
+      "title": "Select payment method to subscribe to the package",
+      "wallet": "Wallet",
+      "electronic": "Electronic",
+      "agree": "Agree",
+      "back": "Back",
+      "success": "Subscription successfully"
+    }
+  },
+  "my_package": {
+    "title": "My Package"
+  },
+  "followers_page": {
+    "title": "ُEmployees",
+    "add_new_follower": "Add New Employee",
+    "edit_follower": "Edit Employee Details",
+    "view_details": "View Details"
+  },
+  "requests_page": {
+    "title": "Join Requests",
+    "view_details": "View Details"
+  },
+  "complaints_page": {
+    "title": "Complaints",
+    "new_complaint": "Send New Complaint",
+    "complaint_item": {
+      "status": "Complaint Status: ",
+      "details": "Complaint Details"
+    },
+    "success_popup": {
+      "text": "Complaint sent successfully"
+    }
+  },
+  "add_complaint_popup": {
+    "title": "Send New Complaint",
+    "classification": "Complaint Classification",
+    "title_label": "Complaint Title",
+    "description_label": "Complaint Text",
+    "images_label": "Complaint Files",
+    "send": "Send",
+    "back": "Back"
+  },
+  "complaint_single_page": {
+    "title": "Complaint Details",
+    "classification": "Complaint Classification: ",
+    "response_title": "Response to Complaint"
+  },
+  "upload_images": {
+    "upload_image": "Drag or drop files here to upload",
+    "browse_files": "Browse Files"
+  },
+  "available_departments_page": {
+    "title": "Research Opportunities",
+    "filter_departments": "Filter Research Opportunities",
+    "research_item": {
+      "search_label": "Search for",
+      "research_field": "Research Field: ",
+      "view_details": "View Details"
+    }
+  },
+  "filterResearchesPopup": {
+    "filter_research_opportunities": "Filter research opportunities by research specialization and participation types",
+    "research_specialization": "Research Specialization",
+    "participation_types": "Participation Types",
+    "apply": "Apply"
+  },
+  "research_details_page": {
+    "title": "Research Opportunity Details",
+    "title_item": "Researcher Details",
+    "hidden_text": "This researcher has hidden his identity",
+    "research_item": {
+      "organisation": {
+        "icon": "Research Organization"
+      },
+      "flex_buttons": {
+        "view_details": "View Details",
+        "start_conversation": "Start Conversation"
+      }
+    },
+    "estimated_time": {
+      "title": "Estimated Time to Complete the Project",
+      "period": "Days"
+    },
+    "research_details": {
+      "title": "Research Details",
+      "research_text" : "Research About ",
+      "field_of_research": "Research Field",
+      "research_specialty": "Research Specialty",
+      "research_summary": "Research Summary"
+    },
+    "share_types": {
+      "title": "Types of Participations and Compensation for Members",
+      "button": "Select Participation Type",
+      "number_of_participants": "Number of Members"
+    },
+    "join_request": {
+      "title": "Enter Your Notes",
+      "placeholder": "Enter text content",
+      "popup": {
+        "title": "Join request sent and awaiting approval",
+        "flex_buttons": {
+          "projects": "My Projects",
+          "home": "Return to Home"
+        }
+      }
+    },
+    "join_request_btn": "Join Request",
+    "contribution_type_required": "Please select your contribution type"
+  },
+  "create_research": {
+    "title": "Create Research Opportunity",
+    "control_user_visible": {
+      "title": "Fill the following request form",
+      "text": {
+        "title": "Hide Researcher's Identity",
+        "subtitle": "Do not wish to disclose the name"
+      }
+    },
+    "inputs": {
+      "optional": "(Optional)",
+      "research_name": {
+        "label": "Research Name"
+      },
+      "research_field": {
+        "label": "Research Field"
+      },
+      "research_specialty": {
+        "label": "Research Specialty"
+      },
+      "research_duration": {
+        "label": "Estimated Time to Complete the Project"
+      },
+      "summary": {
+        "label": "General Summary"
+      }
+    },
+    "detect_share": {
+      "title": "Determine Participation Types",
+      "label": "Compensation each member will receive",
+      "placeholder": "Enter compensation",
+      "subtitle": "Can be monetary, volunteer hours, or name inclusion in research",
+      "group_numbers": {
+        "label": "Number of Required Members",
+        "placeholder": "Enter number of members"
+      }
+    },
+    "show_research_control": {
+      "title": "Make Research Opportunity Available",
+      "all": "Make opportunity available to all",
+      "specified": "Make opportunity available only to organization-specific researchers"
+    },
+    "submit": "Submit",
+    "waiting_approve_popup": {
+      "text": "Research opportunity request sent and awaiting approval"
+    }
+  },
+  "researcher": {
+    "title": "Researchers",
+    "viewDetails": "View Details",
+    "startChat": "Start Chat",
+    "searchPlaceholder": "Search for researcher",
+    "filterResearcherPopup": {
+      "title": "Filter Results",
+      "instruction": "Filter by research field",
+      "research_specialization_label": "Research Specialization",
+      "apply": "Apply"
+    }
+  }, 
+  "organizations": {
+    "title": "Organizations",
+    "viewDetails": "View Details",
+    "startChat": "Start Chat",
+    "searchPlaceholder": "Search for Organization",
+    "filterResearcherPopup": {
+      "title": "Filter Results",
+      "instruction": "Filter by research field",
+      "research_specialization_label": "Research Specialization",
+      "apply": "Apply"
+    }
+  }, 
+  "add_research" : {
+    "title" : "Add New Research",
+    "add_btn" : "Add"
+  },
+
+  "chats": {
+    "title": "My Chats",
+    "chats__input": "Enter your message here",
+    "image": "Image",
+    "sound": "Sound",
+    "file": "File",
+    "empty_text": "Please select a conversation first",
+    "empty_rooms" : "You don't have any conversations yet"
+  },
+
+
+  "validations" : {
+    "user_type" : {
+      "required" : "Please select a user type"
+    },
+    "identity" : {
+      "required" : "Please enter your identity number",
+      "length" : "Identity number isn't Valid",
+      "terms_required" : "You must agree to the terms and conditions to continue"
+    },
+    "register" : {
+      "user_image" : "Please select a user image",
+      "employee_card_image" : "Please select an image for the employee card",
+      "name" : "Please enter a name",
+      "name_length" : "Name must be at least 2 characters",
+      "city" : "Please choose your city",
+      "email_required": "Please enter Your Email",
+      "email_valid": "Please enter a valid email address",
+      "phone_required" : "Phone Number is Required",
+      "phone_length" : "Enter Valid Phone Number",
+      "scientific_field" : "Please enter your scientific qualification",
+      "shared_researches" : "Please enter the number of published researches",
+      "part_researches" : "Please enter the number of researches participated in",
+      "exprtises" : "Please enter your experiences",
+      "courses" : "Please enter your training courses",
+      "field" : "Please select your research field",
+      "specializations" : "Please select your research specializations",
+      "phone" : "Please enter a valid mobile number",
+      "job" : "Please enter your job or position",
+      "participated_researches": "Please enter the participated researches",
+      "private_researches": "Please enter the private researches",
+      "research_name": "Please enter the research name",
+      "research_field": "Please select the research field",
+      "research_specializations": "Please select the research specializations",
+      "research_type": "Please select the research type",
+      "research_file_type": "File must be of type PDF",
+      "research_files": "Please upload the research files"
+    },
+    "login" : {
+      "phone_required" : "Phone Number is Required",
+      "phone_length" : "Enter Valid Phone Number"
+    },
+    "contact" :{
+      "name_required" : "Please enter your name",
+      "name_length" : "Name must be at least 2 characters",
+      "phone_required" : "Phone Number is Required",
+      "phone_length" : "Enter Valid Phone Number",
+      "message_required" : "Please enter a message",
+      "message_length" : "Message must be at least 10 characters"
+    },
+    "complaints" : {
+      "classification" : "Please select the complaint classification",
+      "subject_required" : "Please enter the complaint subject",
+      "subject_length" : "Subject must be at least 2 characters",
+      "complaint_required" : "Please enter the complaint text",
+      "complaint_length" : "Complaint must be at least 10 characters",
+      "attachments_required" : "Please upload the complaint attachment"
+    }
+  }
+}

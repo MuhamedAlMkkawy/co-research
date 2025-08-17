@@ -1,0 +1,18 @@
+.head_text{
+  h4.title{
+    font-size: clamp(18px , 2.5vw , 32px);
+    font-weight: 500;
+    &.centered{
+      text-align: center;
+    }
+  }
+  p{
+    font-size: clamp(14px , 2.5vw , 20px);
+    font-weight: 400;
+    margin-block: 10px clamp(20px , 2.5vw , 50px);
+  }
+  a.main-btn{
+    max-width: 250px;
+    margin: 0 ;
+  }
+}

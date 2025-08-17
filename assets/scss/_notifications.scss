@@ -1,0 +1,37 @@
+.notifications{
+  right: -50%;
+  max-width: 400px;
+  width: 100%;
+  // padding-inline: 10px;
+  .header_notification{
+    @include displayFlex($justify : space-between);
+    margin-bottom: 8px;
+    h4{
+      font-size: 16px;
+    }
+    a{
+      font-size: 14px;
+      color: $secColor;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  li{
+    @include displayFlex($justify : space-between , $gap : 5px);
+    width: 100%;
+    a{
+      gap: 5px;
+      .image{
+        max-width: 25px !important;
+      }
+      p{
+        @include textTruncate(1);
+      }
+    }
+    button.pi-times{
+      font-size: 14px;
+      color: $dangerColor;
+    }
+  }
+}

@@ -1,0 +1,615 @@
+{
+  "navbar": {
+    "home": "الرئيسية",
+    "projects": "المشاريع",
+    "chats": "محادثاتي",
+    "signIn": "تسجيل الدخول",
+    "signUp": "تسجيل",
+    "profileDropdown": {
+      "profile": "الملف الشخصي",
+      "settings": "الإعدادات",
+      "wallet": "المحفظه",
+      "packages": "الباقات",
+      "myPackages": "باقتي",
+      "followers": "الأعضاء التابعين",
+      "requests": "طلبات الانضمام",
+      "logout": "تسجيل خروج",
+      "notifications": "الإشعارات",
+      "showMore" : "عرض الكل"
+    }
+  },
+  "login" : {
+    "welcome" : "مرحبا بعودتك",
+    "title" : "قم بإدخال بيانات تسجيل الدخول",
+    "phone" : {
+      "label" : "رقم الجوال",
+      "placeholder" : "أدخل رقم الجوال"
+    },
+    "button" : "تسجيل الدخول",
+    "register_text" : "ليس لديك حساب ؟ ",
+    "register_link" : "أنشئ حساب",
+    "guest" : "الدخول كزائر" 
+  },
+  "user_type" : {
+    "welcome" : "مرحبا بك",
+    "title" : "قم بتحديد هويتك لـ ",
+    "sub_title_login" : "تسجيل الدخول",
+    "sub_title_register" : "إنشاء حساب",
+    "user" : {
+      "label" : "نوع المستخدم",
+      "types":{
+        "user" : "باحث منفرد",
+        "organization" : "منظمة بحثية",
+        "related_user" : "باحث تابع لمنظمه"
+      }
+    },
+    "button" : "متابعة",
+    "login_text": "لديك حساب بالفعل ؟",
+    "login_link": "تسجيل دخول",
+    "register_text" : "ليس لديك حساب ؟ ",
+    "register_link" : "أنشئ حساب"
+  },
+  "register": {
+      "welcome": "مرحبا بك",
+      "title": "قم باستكمال بياناتك لإنشاء حساب جديد",
+      "image": "الصورة الشخصية",
+      "logo" : "شعار المنظمة",
+      "name": "الإسم",
+      "city": "المدينة",
+      "email": "البريد الالكتروني",
+      "scientific_field": "المؤهل العلمي",
+      "shared_researches": "عدد الأبحاث المنشورة",
+      "part_researches": "عدد الأبحاث المشارك بها مسبقا",
+      "exprtises": "الخبرات",
+      "courses": "الدورات التدريبية",
+      "field": "المجال البحثي",
+      "specializations": "التخصصات البحثية",
+      "specializations_placeholder" : "أدخل التخصص البحثي",
+      "organization" : "المنظمه البحثية التابع لها",
+      "organization_placeholder" : "إسم المنظمه",
+      "employee_number" : "رقم الموظف / الطالب",
+      "employee_number_placeholder" : "أدخل رقم الموظف / الطالب",
+      "organization_image" : "البطاقة الخاصه بالمنظمه",
+      "phone": "رقم الجوال",
+      "job": "المنصب / الوظيفة",
+      "add_research": "إضافة الأبحاث الخاصه",
+      "research_name": "إسم البحث",
+      "research_field": "المجال البحثي",
+      "research_fields": "المجالات البحثية",
+      "research_type": "نوع البحث",
+      "research_files": "إرفاق ملفات البحث",
+      "local_research": "البحوث المحلية",
+      "remove_research": "حذف البحث",
+      "research_title": "إسم البحث : ",
+      "research_field_title": "مجال البحث : ",
+      "research_specializations_title": "تخصص البحث : ",
+      "next" : "التالي",
+      "submit": "أنشئ حساب",
+      "optional": "اختياري",
+      "individual_research": "بحث فردي",
+      "shared_research": "بحث مشترك",
+      "about_organization" : "ماتقدمة المنظومة",
+      "commercial_number": "رقم السجل التجاري",
+      "commercial_image" : "صورة السجل التجاري",
+      "bank_name": "إسم البنك",
+      "bank_account_name": "اسم صاحب الحساب",
+      "bank_account_number": "رقم الحساب",
+      "bank_iban_number": "رقم الآيبان"
+  },
+  "identity" : {
+    "welcome" :"مرحبا بك",
+    "title" : "قم بتحديد هويتك لإنشاء حساب جديد",
+    "image": "صورة الهوية",
+    "input" : {
+      "label" : "رقم الهوية",
+      "placeholder" : "أدخل رقم الهوية"
+    },
+    "terms" : "الموافقة على الشروط والأحكام الخاصة بالتطبيق",
+    "button" : "التالي",
+    "login_text" : "لديك حساب ؟ ",
+    "login_link" : "تسجيل دخول",
+    "popup" : {
+      "title" : " جاري التحقق من الهوية عن طريق نفاذ قبل استكمال البيانات"
+    }
+  },
+  "code" : {
+    "text" : "كود التحقق",
+    "title" : "برجاء إدخال كود التحقق",
+    "button" : "تأكيد",
+    "have_code" : "لم يصلك كود ؟ ",
+    "send" : "أرسل ثانية"
+  },
+  "home": {
+    "about": {
+      "title": "عن المنصة",
+      "button" : "عرض المزيد"
+    },
+    "departments": {
+      "title": "الأقسام المتاحه",
+      "create": "إنشاء فرصة بحثية",
+      "chances" : "الفرص البحثية",
+      "researchers": "الباحثين",
+      "organizations": "المنظمات",
+      "organization": "المنظمة"
+    }
+  },
+  "footer": {
+    "links": {
+      "home": "الرئيسية",
+      "projects": "مشاريعي",
+      "chats": "محادثاتي",
+      "terms": "الشروط والأحكام",
+      "privacy": "سياسة الخصوصية",
+      "about": "عن المنصة",
+      "contact": "تواصل معنا",
+      "complaints" : "الشكاوي"
+    },
+    "rights": "جميع الحقوق محفوظة ل Co-Research",
+    "design": "تصميم وبرمجة مؤسسة أوامر الشبكة"
+  },
+  "contact": {
+    "title": "اتصل بنا",
+    "form": {
+      "name": {
+        "label": "الإسم",
+        "placeholder": "أدخل الإسم"
+      },
+      "phone": {
+        "label": "رقم الجوال",
+        "placeholder": "أدخل رقم الجوال"
+      },
+      "title": {
+        "label": "العنوان",
+        "placeholder": "نص الرساله"
+      },
+      "send": "إرسال"
+    }
+  },
+  "popup" : {
+    "contact_text" : "تم إرسال الرسالة بنجاح",
+    "home" : "الرئيسية",
+    "back" : "العودة"
+  },
+  "projects": {
+    "myProjects": "مشاريعي",
+    "myResearch": "أبحاثي الخاصة",
+    "participatedResearch": "الأبحاث المشارك بها",
+    "statuses": {
+      "new": "جديدة",
+      "current": "حالية",
+      "completed": "منتهية"
+    },
+    "research": {
+      "title": "إسم البحث :",
+      "requestNumber": "طلب ",
+      "field": "مجال البحث :",
+      "status": "حالة الطلب :"
+    }
+  },
+  "filterJoinReqPopup": {
+    "title": "فلترة النتائج",
+    "participationType": "حدد نوع المشاركة",
+    "submit": "إرسال"
+  },
+  "project_page" : {
+    "title": "تفاصيل الطلب",
+    "requestNumber": "طلب ",
+    "startResearch": "بدء البحث",
+    "completedResearch": "تم الانتهاء من البحث",
+    "endRequest": "إنهاء الطلب الخاص بالفرصة البحثية",
+    "membersCompensationAcknowledgment": "إقرار بتسليم الأعضاء المقابل المادي الخاص بهم",
+    "cancelRequest": "إلغاء الطلب",
+    "mainResearcherDetails": "تفاصيل الباحث الرئيسي",
+    "viewDetails": "عرض التفاصيل",
+    "startChat": "بدء محادثة",
+    "shareType": "نوع المشاركة",
+    "researchDetails": "تفاصيل البحث",
+    "research_title" : "بحث عن ",
+    "researchField": "المجال البحثي :",
+    "researchSpecialization": "التخصص البحثي :",
+    "researchSummary": "ملخص نصي للبحث :",
+    "cancelReason": "سبب الإلغاء",
+    "estimatedTime": "المدة المتوقعة لإنهاء المشروع :",
+    "days": "أيام",
+    "shareTypes": "أنواع المشاركات والمقابل الذي سيحصل عليه الأعضاء",
+    "compensation": "مقابل مادي -",
+    "membersCount": "عدد الأعضاء",
+    "joinRequests": "طلبات الانضمام",
+    "membersData": "بيانات الأعضاء",
+    "viewMembersChat": "عرض محادثة الأعضاء",
+    "cancelSuccess": "تم إلغاء الطلب بنجاح",
+    "participationType": "نوع المشاركة :",
+    "researcherNotes": "ملاحظات الباحث عن البحث :",
+    "exampleNote": "هذا النص هو مثال لنص يمكن أن يستبدل في نفس النصوص المساحة، لقد تم توليد هذا النص من مولد النص العربى.",
+    "accept": "قبول",
+    "reject": "رفض"
+  },
+  "cancelResearchPopup": {
+    "title": "إلغاء الطلب",
+    "input": {
+      "label": "أدخل سبب الإلغاء",
+      "placeholder": "أدخل سبب الإلغاء"
+    },
+    "buttons": {
+      "cancel": "إلغاء الطلب",
+      "back": "رجوع"
+    }
+  },
+  "header_notification": {
+    "title": "الإشعارات",
+    "deleteAll": "حذف الكل"
+  },
+  "profile_page": {
+    "title": "الملف الشخصي",
+    "edit": "تعديل الملف الشخصي",
+    "image": "صورة البطاقة",
+    "experiences": "الخبرات",
+    "trainingCourses": "الدورات التدريبية",
+    "published_researches_number" : "عدد الأبحاث المنشورة :",
+    "participatedResearchesNumbers" : "عدد الأبحاث المشارك بها :",
+    "researchSpecializations": "التخصصات البحثية",
+    "about_organization" : "ماتقدمة المنظومة",
+    "researchType": "نوع البحث :",
+    "researchName": "إسم البحث :",
+    "researchField": "المجال البحثي :",
+    "researchSpecialization": "التخصص البحثي :",
+    "edit_btn" : "حفظ التعديلات"
+  },
+  "researcher_page": {
+    "title": "تفاصيل الباحث",
+    "image": "صورة البطاقة",
+    "startChat" : "بدء المحادثة",
+    "experiences": "الخبرات",
+    "trainingCourses": "الدورات التدريبية",
+    "researchSpecializations": "التخصصات البحثية",
+    "researchType": "نوع البحث :",
+    "researchName": "إسم البحث :",
+    "researchField": "مجال البحث :",
+    "researchSpecialization": "تخصص البحث :",
+    "researchFieldTitle": "المجال البحثي",
+    "publishedResearch": "عدد الأبحاث المنشورة :",
+    "participatedResearch": "عدد الأبحاث المشارك بها :"
+  },
+  "organization_page": {
+    "title": "تفاصيل المنظمة",
+    "commercial_number": "السجل التجاري",
+    "startChat" : "بدء المحادثة",
+    "about_organizations": "ما تقدمة المنظومة",
+    "researchSpecializations": "التخصصات البحثية",
+    "researchFields": "المجالات البحثية"
+  },
+  "settings_page": {
+    "title": "الإعدادات",
+    "changePhoneNumber": "تغيير رقم الجوال",
+    "notifications": "تفعيل الإشعارات",
+    "visibility": "إخفاء الوظيفة",
+    "orgnaization_visibility" : "تفعيل رؤية المشاريع الخاصه بالمنظمه",
+    "deleteAccount": "حذف الحساب",
+    "new_phone" : {
+      "new_phone_text" : "قم بإدخال رقم الجوال ليصلك كود التحقق",
+      "phone_label" : "رقم الجوال الجديد",
+      "phone_placeholder" : "أدخل رقم الجوال الجديد",
+      "submit_btn" : "موافق"
+    }
+  },
+  "delete_account_popup": {
+    "title": "هل أنت متأكد من حذف حسابك ؟",
+    "delete_account": "حذف الحساب",
+    "back": "رجوع"
+  },
+  "logout_popup": {
+    "title": "هل أنت متأكد من تسجيل الخروج ؟",
+    "logout": "تسجيل خروج",
+    "back": "رجوع"
+  },
+  "wallet_page": {
+    "title": "المحفظه",
+    "your_current_balance": "رصيدك الحالي :",
+    "charge_wallet": "شحن المحفظه",
+    "currency" : "ر.س",
+    "recharge_popup": {
+      "title": "شحن المحفظة",
+      "label": "مبلغ الشحن",
+      "placeholder": "أدخل مبلغ الشحن",
+      "recharge": "شحن",
+      "back": "رجوع",
+      "success": "تم شحن المحفظة بنجاح"
+    }
+  },
+  "packages_page" : {
+    "title" : "الباقات",
+    "subscribe" : "إشتراك",
+    "user" : "مستخدم",
+    "currency" : "ر.س",
+    "name": "باقة",
+    "popup" : {
+      "title" : "حدد وسيلة الدفع للاشتراك في الباقة",
+      "wallet" : "المحفظه",
+      "electronic" : "إلكتروني",
+      "agree" : "موافق",
+      "back" : "رجوع",
+      "success" : "تم الاشتراك بنجاح "
+    }
+  },
+  "my_package" : {
+    "title" : "باقتي"
+  },
+  "followers_page": {
+    "title": "الأعضاء التابعين",
+    "add_new_follower": "إضافة عضو جديد",
+    "edit_follower" : "تعديل بيانات العضو",
+    "view_details": "عرض التفاصيل"
+  },
+  "requests_page" : {
+    "title" : "طلبات الانضمام",
+    "view_details" : "عرض التفاصيل"
+  },
+  "complaints_page": {
+    "title": "الشكاوي",
+    "new_complaint": "إرسال شكوي جديدة",
+    "complaint_item": {
+      "status": "حالة الشكوي : ",
+      "details": "تفاصيل الشكوي"
+    },
+    "success_popup": {
+      "text": "تم إرسال الشكوي بنجاح"
+    }
+  },
+  "add_complaint_popup": {
+    "title": "إرسال شكوي جديدة",
+    "classification": "تصنيف الشكوي",
+    "title_label": "عنوان الشكوي",
+    "description_label": "نص الشكوي",
+    "images_label": "ملفات الشكوي",
+    "send": "إرسال",
+    "back": "رجوع"
+  },
+  "complaint_single_page": {
+    "title": "تفاصيل الشكوي",
+    "classification": "تصنيف الشكوي : ",
+    "response_title": "الرد علي الشكوي"
+  },
+  "upload_images": {
+    "upload_image": "اسحب او افلت الملفات هنا للرفع",
+    "browse_files": "تصفح الملفات"
+  },
+  "available_departments_page": {
+    "title": "الفرص البحثية",
+    "filter_departments": "فلترة الفرص البحثية",
+    "research_item": {
+      "search_label": "بحث عن",
+      "research_field": "المجال البحثي : ",
+      "view_details": "عرض التفاصيل"
+    }
+  },
+  "filterResearchesPopup": {
+    "filter_research_opportunities": "فلترة الفرص البحثية حسب التخصص البحثي وأنواع المشاركة",
+    "research_specialization": "التخصص البحثي",
+    "participation_types": "أنواع المشاركه",
+    "apply": "تطبيق"
+  },
+  "research_details_page": {
+    "title": "تفاصيل الفرصة البحثية",
+    "title_item": "تفاصيل الباحث",
+    "hidden_text" : "هذا الباحث قام بإخفاء هويته",
+    "research_item": {
+      "organisation": {
+        "icon": "منظمة بحثية"
+      },
+      "flex_buttons": {
+        "view_details": "عرض التفاصيل",
+        "start_conversation": "بدء محادثة"
+      }
+    },
+    "estimated_time": {
+      "title": "المدة المتوقعة لإنهاء المشروع",
+      "period" : "أيام"
+    },
+    "research_details": {
+      "title": "تفاصيل البحث",
+      "research_text" : "بحث عن ",
+      "field_of_research" : "المجال البحثي",
+      "research_specialty" : "التخصص البحثي",
+      "research_summary" : "ملخص نصي للبحث"
+    },
+    "share_types": {
+      "title" : "أنواع المشاركات والمقابل الذي سيحصل عليه الأعضاء",
+      "button": "حدد نوع المشاركة",
+      "number_of_participants": "عدد الأعضاء"
+    },
+    "join_request": {
+      "title": "أدخل ملاحظاتك",
+      "placeholder": "أدخل محتوي نصي",
+      "popup": {
+        "title" : "تم إرسال طلب الانضمام وفي انتظار قبول الطلب",
+        "flex_buttons" : {
+          "projects" : "مشاريعي" ,
+          "home" : "العودة للرئيسية"
+        }
+      }
+    },
+    "join_request_btn": "طلب إنضمام",
+    "contribution_type_required": "يرجى تحديد نوع المشاركة الخاصه بك"
+  },
+  "create_research": {
+    "title": "إنشاء فرصة بحثية",
+    "control_user_visible": {
+      "title": "قم بتعبئة نموذج الطلب التالي",
+      "text": {
+        "title": "إخفاء هوية الباحث",
+        "subtitle": "عدم الرغبة في الإفصاح عن الإسم"
+      }
+    },
+    "inputs": {
+      "optional" : "(اختياري)",
+      "research_name": {
+        "label": "إسم البحث"
+      },
+      "research_field": {
+        "label": "المجال البحثي"
+      },
+      "research_specialty": {
+        "label": "التخصص البحثي"
+      },
+      "research_duration": {
+        "label": "المدة المتوقعة لإنهاء المشروع"
+      },
+      "summary": {
+        "label": "ملخص عام"
+      }
+    },
+    "detect_share": {
+      "title": "تحديد أنواع المشاركات",
+      "label": "المقابل الذي سيحصل عليه كل عضو",
+      "placeholder": "أدخل المقابل",
+      "subtitle": "يمكن أن يكون مبلغ مالي أو ساعات تطوعية أو كتابة اسمه ف البحث",
+      "group_numbers": {
+        "label": "عدد الأعضاء المطلوبين",
+        "placeholder": "أدخل عدد الأعضاء"
+      }
+    },
+    "show_research_control": {
+      "title": "إتاحة الفرصة البحثية",
+      "all": "إتاحة الفرصة للكل",
+      "specified": "إتاحة الفرصة للباحثين الخاصين بالمنظمة فقط"
+    },
+    "submit": "إرسال",
+    "waiting_approve_popup" : {
+      "text": "تم إرسال طلب إنشاء فرصة بحثية وفي انتظار قبول الطلب"
+    },
+    "validations" : {
+      "title": {
+        "required": "يرجى ادخال عنوان الفرصة البحثية"
+      },
+      "description": {
+        "required": "يرجى ادخال وصف للفرصة البحثية"
+      },
+      "research_field_id": {
+        "required": "يرجى اختيار المجال البحثي"
+      },
+      "research_specialization_id": {
+        "required": "يرجى اختيار التخصص البحثي"
+      },
+      "research_expectation_period": {
+        "required": "يرجى ادخال المدة المتوقعة لإنهاء المشروع"
+      },
+      "is_public": {
+        "required": "يرجى تحديد إتاحة الفرصة البحثية للعامة"
+      }
+    }
+  },
+  "researcher" : {
+    "title" : "الباحثين" ,
+    "viewDetails" : "عرض التفاصيل",
+    "startChat" :"بدء المحادثة",
+    "searchPlaceholder" : "بحث عن الباحث",
+    "filterResearcherPopup": {
+      "title": "فلترة النتائج",
+      "instruction": "قم بالفلتره حسب المجال البحثي",
+      "research_field_label": "المجال البحثي",
+      "apply": "تطبيق"
+    }
+  },
+  "organizations" : {
+    "title" : "المنظمات" ,
+    "viewDetails" : "عرض التفاصيل",
+    "startChat" :"بدء المحادثة",
+    "searchPlaceholder" : "بحث عن المنظمة",
+    "filterResearcherPopup": {
+      "title": "فلترة النتائج",
+      "instruction": "قم بالفلتره حسب المجال البحثي",
+      "research_field_label": "المجال البحثي",
+      "apply": "تطبيق"
+    }
+  },
+
+  "add_research" : {
+    "title" : "إضافة بحث جديد",
+    "add_btn" : "إضافة"
+  },
+
+  "chats": {
+    "title": "محادثاتي",
+    "chats__input": "أدخل رسالتك هنا",
+    "image" : "صورة",
+    "sound" : "صوت",
+    "file" : "ملف",
+    "empty_text" : "يرجي تحديد المحادثة أولا",
+    "empty_rooms" : "لا يوجد لديك محادثات حتي الآن"
+  },
+
+
+  "validations" : {
+    "user_type" : {
+      "required" : "يرجى اختيار نوع المستخدم"
+    },
+    "identity" : {
+      "required" : "يرجى ادخال رقم الهوية",
+      "length" : "رقم الهوية غير صحيح",
+      "terms_required" : "يجب الموافقة على الشروط والأحكام للاستمرار"
+    },
+    "register": {
+      "user_image": "يرجى اختيار صورة للهوية",
+      "employee_card_image" : "يرجى اختيار صورة للبطاقة",
+      "organization_image" : "يرجى اختيار شعار للمنظمة",
+      "name": "يرجى ادخال الاسم",
+      "name_length": "يجب أن يكون الاسم على الأقل 2 أحرف",
+      "city": "يرجى اختيار المدينة",
+      "email_required": "يرجى ادخال البريد الالكتروني",
+      "email_valid": "يرجى ادخال بريد إلكتروني صحيح",
+      "phone_required": "رقم الجوال مطلوب",
+      "phone_length": "يرجي إدخال رقم جوال صحيح",
+      "scientific_field": "يرجى ادخال المؤهل العلمي",
+      "shared_researches": "يرجى ادخال عدد الأبحاث المنشورة",
+      "part_researches": "يرجى ادخال عدد الأبحاث المشارك بها",
+      "exprtises": "يرجى ادخال الخبرات",
+      "courses": "يرجى ادخال الدورات التدريبية",
+      "field": "يرجى اختيار المجال البحثي",
+      "specializations": "يرجى اختيار التخصصات البحثية",
+      "phone": "رقم الجوال مطلوب",
+      "job": "يرجى ادخال الوظيفة",
+      "participated_researches" : "يرجى ادخال الأبحاث المشارك بها",
+      "private_researches" : "يرجى ادخال الأبحاث الخاصه",
+      "research_name": "يرجى ادخال اسم البحث",
+      "research_field": "يرجى اختيار المجال البحثي",
+      "research_fields": "يرجى اختيار المجالات البحثية",
+      "research_specializations": "يرجى اختيار التخصصات البحثية",
+      "research_type": "يرجى اختيار نوع البحث",
+      "research_file_type" : "يجب أن يكون الملف من النوع pdf",
+      "research_files": "يرجى تحميل ملفات البحث",
+      "about_organization" : "يجب إضافة ماتقدمة المنظومة",
+      "commercial_number" : "يرجي ادخال رقم السجل التجاري",
+      "commercial_number_length" : "يجب ان يكون رقم السجل التجاري 10 ارقام",
+      "commercial_image" : "يرجى اختيار صورة السجل التجاري",
+      "bank_name": "يرجى ادخال إسم البنك",
+      "bank_name_length": "يجب أن يكون إسم البنك على الأقل 2 أحرف",
+      "bank_account_name": "يرجى ادخال اسم صاحب الحساب",
+      "bank_account_name_length": "يجب أن يكون اسم صاحب الحساب على الأقل 2 أحرف",
+      "bank_account_number": "يرجى ادخال رقم الحساب",
+      "bank_account_number_length": "يجب أن يكون رقم الحساب على الأقل 10 أرقام",
+      "bank_iban_number": "يرجى ادخال رقم الآيبان",
+      "bank_iban_number_length": "يجب أن يكون رقم الآيبان 24 رقم"
+    },
+    "login": {
+      "phone_required": "رقم الجوال مطلوب",
+      "phone_length": "يرجي إدخال رقم جوال صحيح"
+    },
+    "contact" :{
+      "name_required" : "يرجى ادخال الاسم",
+      "name_length" : "يجب أن يكون الاسم على الأقل 2 أحرف",
+      "phone_required" : "رقم الجوال مطلوب",
+      "phone_length" : "يرجي إدخال رقم جوال صحيح",
+      "message_required" : "يرجى ادخال الرسالة",
+      "message_length" : "يجب أن تكون الرسالة على الأقل 10 أحرف"
+    },
+    "complaints": {
+      "classification": "يرجى اختيار تصنيف الشكوى",
+      "subject_required": "يرجى إدخال موضوع الشكوى",
+      "subject_length": "يجب أن يكون الموضوع على الأقل 2 أحرف",
+      "complaint_required": "يرجى إدخال نص الشكوى",
+      "complaint_length": "يجب أن يكون نص الشكوى على الأقل 10 أحرف",
+      "attachments_required": "يرجى تحميل ملف الشكوي"
+    }
+  }
+}
+

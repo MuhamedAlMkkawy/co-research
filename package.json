@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "^9.2.0",
+    "@nuxtjs/tailwindcss": "^6.13.1",
+    "@pinia/nuxt": "^0.10.1",
+    "@primevue/themes": "^4.2.5",
+    "firebase": "^11.9.0",
+    "nuxt": "^3.15.4",
+    "pinia": "^3.0.1",
+    "pinia-plugin-persistedstate": "^4.2.0",
+    "primeicons": "^7.0.0",
+    "primevue": "^3.53.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vue3-carousel": "^0.14.0"
+  },
+  "devDependencies": {
+    "@primevue/nuxt-module": "^4.2.5",
+    "sass-embedded": "^1.85.0"
+  }
+}

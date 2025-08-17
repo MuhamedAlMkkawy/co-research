@@ -1,0 +1,39 @@
+.content.column_research_items{
+  @include displayGrid(300px , $gap : 20px 33px);
+  .research_item .item_head {
+    .info{
+      align-items: stretch;
+      // flex-wrap: wrap;
+      width: 100%;
+      @media (max-width : 400px){
+        flex-direction: column !important;
+      }
+      .image{
+        width: 80px;
+        height: 80px;
+      }
+      .text{
+        justify-content: space-between;
+        padding-block: 4px;
+      }
+    }
+    + a{
+      padding-block-start: 8px;
+      font-size: 14px;
+      color: $secColor;
+      text-wrap: nowrap;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  .researcher_details_item{
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+    flex-direction: row !important;
+    margin-bottom: 0 ;
+  }
+  .main-btn{
+    margin-bottom: 0 !important;
+  }
+}

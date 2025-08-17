@@ -1,0 +1,147 @@
+.main-btn {
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  background: $mainColor;
+  font-size: clamp(16px, 2.5vw, 20px);
+  font-weight: 500;
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: $fontFamily !important;
+  margin: 20px auto 0;
+  @include displayFlex();
+  text-wrap-mode: nowrap;
+  transition: all 0.3s ease;
+  
+  // Wave animation element
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, 
+              rgba(255,255,255,0) 0%, 
+              rgba(255,255,255,0.8) 50%, 
+              rgba(255,255,255,0) 100%);
+    transform: translateX(-100%);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  // Hover effects
+  &:hover {
+    color: #fff;
+    border-color: $mainColor !important;
+    
+    &::before {
+      animation: waveSlide 1.4s infinite linear;
+      opacity: 1;
+    }
+  }
+  
+  // Button variations
+  &.centered {
+    max-width: 500px;
+    @include displayFlex();
+  }
+  
+  &.danger {
+    background: $dangerColor;
+    &:hover {
+      color: #fff;
+      border-color: $dangerColor !important;
+    }
+  }
+  
+  &.success {
+    background: $successColor;
+    &:hover {
+      color: #fff ;
+      border-color: $successColor !important;
+    }
+  }
+  
+  &.sec_btn {
+    background: $secColor;
+    &:hover {
+      color: $secColor;
+      border-color: $secColor !important;
+      background: #fff;
+    }
+  }
+}
+
+// Reversed button styles
+.main-btn.reversed {
+  background: #fff;
+  color: $mainColor;
+  border-color: $mainColor !important;
+  
+  &::before {
+    background: linear-gradient(90deg, 
+              rgba($mainColor,0) 0%, 
+              rgba($mainColor,0.5) 50%, 
+              rgba($mainColor,0) 100%);
+  }
+  
+  &:hover {
+    color: $mainColor;
+    
+    &.danger {
+      background: $dangerColor !important;
+      color: #fff;
+      &::before {
+        background: linear-gradient(90deg, 
+                  rgba(#fff,0) 0%, 
+                  rgba(#fff,0.3) 50%, 
+                  rgba(#fff,0) 100%);
+      }
+    }
+    
+    &.success {
+      background: $successColor !important;
+      &::before {
+        background: linear-gradient(90deg, 
+                  rgba(#fff,0) 0%, 
+                  rgba(#fff,0.3) 50%, 
+                  rgba(#fff,0) 100%);
+      }
+    }
+    
+    &.sec_btn {
+      background: $secColor !important;
+      &::before {
+        background: linear-gradient(90deg, 
+                  rgba(#fff,0) 0%, 
+                  rgba(#fff,0.3) 50%, 
+                  rgba(#fff,0) 100%);
+      }
+    }
+  }
+}
+
+// Animation keyframes
+@keyframes waveSlide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+// Optional: Add this to .main-btn for extra depth
+.main-btn {
+  // box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+}	

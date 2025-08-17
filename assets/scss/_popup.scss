@@ -1,0 +1,165 @@
+.popup{
+  position: fixed;
+  inset-inline-start: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000CC;
+  z-index: 9999;
+  backdrop-filter: blur(4px);
+  .close_btn{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    transition: 0.6s;
+    border: 1px solid transparent;
+    color: #fff;
+    background: $dangerColor;
+    @include displayFlex();
+    cursor: pointer;
+    &:hover{
+      border: 1px solid $dangerColor;
+      color: $dangerColor;
+      background: #fff;
+    }
+  }
+  .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 15px;
+    background: #fff;
+    padding-block: 20px clamp(10px, 80%, 20px);
+    text-align: center;
+    padding-inline: clamp(8px , 100% , 15px);
+    // overflow: hidden !important;
+    // min-height: 465px !important; 
+    @include displayFlex($direction : column , $gap : clamp(20px , 80% , 40px) , $justify : space-between);
+    .image{
+      max-width: 200px;
+      width: 100%;
+      margin: 0 auto 20px;
+    }
+    h3.title{
+      margin-bottom: 0;
+      &.centered{
+        text-align: center;
+      }
+    }
+    h4{
+      text-align: start;
+      font-size: clamp(16px , 4vw , 20px);
+      font-weight: 500;
+      margin-bottom: clamp(20px , 4vw ,40px);
+    }
+    h5{
+      font-size: 16px;
+      font-weight: 600;
+      width: 100%;
+      text-align: start;
+    }
+    p{
+      font-size: clamp(14px , 2.5vw , 16px);
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+    label{
+      text-align: start;
+      display: block;
+      // margin-bottom: 8px;
+    }
+    .input{
+      margin-bottom: 30px;
+    }
+    .buttons{
+      @include displayFlex($gap : 5px);
+      button.delete_btn{
+        background: $dangerColor;
+        &:hover{
+          border-color:$dangerColor !important;
+          color: $dangerColor;
+          background: #fff;
+        }
+      }
+      @media (max-width : 700px){
+        flex-wrap: wrap;
+      }
+    }
+    form{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 100%;
+      height: 100%;
+      // gap: 10px;
+      h4{
+        margin-bottom: 15px !important;
+      }
+      label{
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 5px;
+      }
+      .input{
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      .input-wrap{
+        @include displayFlex($justify:flex-start , $gap : 5px);
+        margin-bottom: 8px;
+        input{
+          width: 20px;
+        }
+        &:last-of-type{
+          margin-bottom: 15px;
+        }
+      }
+      .main-btn{
+        margin-block-start: auto;
+      }
+    }
+    .flex_buttons{
+      margin: 0;
+      .main-btn{
+        margin-top: 0;
+      }
+    }
+  }
+  // &.complaint_popup{
+  //   text-align: center;
+  //   .content{
+  //   border-radius: 15px;
+  //   }
+  //   .close_btn{
+  //     left: 15px;
+  //     top: 15px;
+  //     background: transparent;
+  //     border-color: $secColor;
+  //     color: $secColor;
+  //     width: 25px;
+  //     height: 25px;
+  //     font-size: 14px;
+  //     &:hover{
+  //       background: $secColor;
+  //       color: #fff;
+  //     }
+  //   }
+  //   h3.title{
+  //     font-size: clamp(24px , 4vw , 32px);
+  //     font-weight: 400;
+  //     margin-bottom: 0;
+  //   }
+  //   p{
+  //     font-size: clamp(14px , 4vw , 18px);
+  //     margin: 5px 0 18px;
+  //   }
+  // }
+}

@@ -1,0 +1,60 @@
+form,
+.form{
+  width: 100%;
+  .inputs{
+    @include displayFlex($align : flex-start , $justify : space-between);
+    margin-bottom: 30px;
+    .input-wrap{
+      width: 45%;
+      // flex-grow: 1;
+    }
+    @media (max-width : 767px){
+      flex-direction: column;
+      margin-bottom: 10px;
+      .input-wrap{
+        width: 100%;
+        flex-grow: 1;
+      }
+    }
+  }
+  label{
+    font-size: 16px;
+    font-weight: 700;
+    color: $mainColor;
+    margin-bottom: 5px;
+    display: block;
+    span{
+      font-size: 16px;
+      font-weight: 500;
+      color: $secColor;
+    }
+  }
+  .input{
+    @include displayFlex($justify:flex-start , $gap : 5px);
+    background: #fff;
+    .image{
+      width: 20px;
+      height: 20px;
+    }
+    i.pi{
+      font-size: 16px;
+      color: $secColor;
+      font-weight: 400;
+    }
+    &.textarea{
+      align-items: flex-start;
+    }
+  }
+}
+
+// styling input placeholder with icon
+.input_placeholder{
+  position: absolute;
+  inset-block-start: 10px;
+  inset-inline-start: 10px;
+  font-size: 14px;
+  color: $secColor;
+  i.pi{
+    margin-inline-end: 2px;
+  }
+}
